@@ -1,6 +1,5 @@
 pipeline { 
     agent any 
-    git 'https://github.com/barattar1991/HelloWorldMaven.git'
     stages {        
         stage('Build') { 
             steps {
