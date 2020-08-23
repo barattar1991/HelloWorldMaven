@@ -1,12 +1,6 @@
 pipeline { 
     agent any 
     stages {
-    
-        stage('checkout') {
-                withMaven(maven : 'apache-maven-3.3.9'){
-                git 'https://github.com/barattar1991/HelloWorldMaven.git'
-                }
-            }
         stage('Build') { 
             steps {
                 withMaven(maven : 'apache-maven-3.3.9'){
