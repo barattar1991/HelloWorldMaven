@@ -17,9 +17,12 @@ pipeline {
             }
         }
         stage('Deploy') {
-            steps {
-                        sh "mvn -B deploy"
-            }
+           when {
+            branch 'master'
+                }
+        steps {
+            sh "mvn -B deploy"
+              }
         }
     }
 }
