@@ -18,12 +18,12 @@
  <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <repositories>/var/jenkins_home/.m2/repository</repositories>
+    <repositories>/var/jenkins_home/workspace/Bar-WebApp/pom.xml</repositories>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <repositories>/var/jenkins_home/.m2/repository</repositories>
+    <repositories>/var/jenkins_home/workspace/Bar-WebApp/pom.xml</repositories>
   </snapshotRepository>
 </distributionManagement>
 
