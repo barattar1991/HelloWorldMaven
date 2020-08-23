@@ -1,32 +1,27 @@
 pipeline { 
     agent any 
     stages {
-        stage('Check Out') { 
+	    stage('Check Out') { 
             steps {
                   git credentialsId: 'github', url:'https://github.com/barattar1991/HelloWorldMaven'
             }
         }
         stage('Build') { 
             steps {
-                        
-                        sh 'mvn clean compile'
-               
+                        sh "mvn clean compile"
             }
         }
         stage('Test'){
             steps {
-                        
                         sh "mvn test"
-               
+
             }
         }
         stage('Deploy') {
-        steps {
-                       
-                         sh "mvn deploy"
-             }
-           }
-                      
-           
+            steps {
+                        sh "mvn deploy"
+
+            }
         }
     }
+}
