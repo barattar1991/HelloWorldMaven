@@ -9,7 +9,7 @@ pipeline {
         stage('Build') { 
             steps {
                         withMaven(maven : 'apache-maven-3.3.9'){
-                        sh 'mvn clean verify'
+                        sh 'mvn clean compile'
                   }
             }
         }
