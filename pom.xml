@@ -18,7 +18,7 @@
  <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <localRepository>/var/jenkins_home/.m2/repository</localRepository>
+    <localRepository>/var/jenkins_home/workspace/Bar-WebApp/pom.xml</localRepository>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
