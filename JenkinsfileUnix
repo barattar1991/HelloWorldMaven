@@ -1,6 +1,12 @@
 pipeline { 
     agent any 
     stages {
+    
+        stage('Check Out') { 
+            steps {
+                  git credentialsId: 'github', url:'https://github.com/barattar1991/HelloWorldMaven'
+            }
+        }
         stage('Build') { 
             steps {
                 withMaven(maven : 'apache-maven-3.3.9'){
