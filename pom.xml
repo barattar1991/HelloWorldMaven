@@ -18,12 +18,12 @@
  <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <repositories>/var/jenkins_home/workspace/Bar-WebApp/pom.xml</repositories>
+    <url>http://3.84.131.96:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <repositories>/var/jenkins_home/workspace/Bar-WebApp/pom.xml</repositories>
+    <url>http://3.84.131.96:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 
