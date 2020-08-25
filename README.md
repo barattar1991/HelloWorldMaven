@@ -3,7 +3,7 @@
 ### This repository is for the [Build a Java app with Maven](https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/) tutorial in the [Jenkins User Documentation](https://www.jenkins.io/doc/) and  [Docker User Documentation](https://docs.docker.com/get-started/overview/).
 ### The repository contains a simple Java application which outputs the string "Hello world!" and is accompanied by a couple of unit tests to check that the main application works as expected.
 ### I worked on AWS Cloud, Created ec2 instance, OS- linux ubuntu.
-### Install Docker with the script require root or sudo privileges to run.
+### Installing Docker with the script requires.
 ### use the commands:
 ### curl -fsSL https://get.docker.com -o get-docker.sh
 ### sudo sh get-docker.sh
