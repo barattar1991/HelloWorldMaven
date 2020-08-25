@@ -35,7 +35,7 @@
 
 ### Connect the Container with root user and use bash shell in the container.
 ### use the command:
-### sudo docker exec -u root -it 587ef54131d8 /bin/bash
+### Sudo docker exec -u root -it jenkins /bin/bash
 ### use the command:
 ### cat /var/jenkins_home/secrets/initialAdminPassword
 ### to get password-login to jenkins
